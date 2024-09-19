@@ -1,0 +1,53 @@
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-click {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-click:hover {
+  background-color: #45a049;
+}
+
+.btn-hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+.hover {
+  color: rgb(255, 224, 224);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-focus {
+  background-color: #ff9800;
+  color: white;
+}
+
+.btn-focus:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+}
+
+.btn-active {
+  background-color: #e91e63;
+  color: white;
+}
+
+.btn-active:active {
+  transform: scale(0.95);
+}
+
+#block {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(133, 133, 208);
+  position: absolute;
+}
